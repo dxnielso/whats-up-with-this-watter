@@ -2,7 +2,7 @@ import SettingsItem from "../components/SettingsItem";
 import TabLayout from "../layouts/tabs";
 import { FaLanguage, FaMoon } from "react-icons/fa6";
 
-export default function Settings() {
+export default function SettingsPage() {
   return (
     <TabLayout>
       <div>

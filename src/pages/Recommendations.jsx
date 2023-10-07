@@ -1,6 +1,6 @@
 import TabLayout from "../layouts/tabs"
 
-export default function Recommendations() {
+export default function RecommendationsPage() {
   return (
     <TabLayout>
       <div>
