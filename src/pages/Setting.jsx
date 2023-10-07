@@ -5,7 +5,7 @@ import { FaLanguage, FaMoon } from "react-icons/fa6";
 export default function SettingsPage() {
   return (
     <TabLayout>
-      <div>
+      <div className="my-5 text-2xl font-semibold">
         Configuraciones
       </div>
 
