@@ -1,0 +1,20 @@
+[
+  {
+    "id": 1,
+    "name": "cuerpo de agua",
+    "description": "cuerpo de agua",
+    "image": "https://cdn.pixabay.com/photo/2018/06/13/18/20/waves-3473335_1280.jpg"
+  },
+  {
+    "id": 2,
+    "name": "cuerpo de agua",
+    "description": "cuerpo de agua",
+    "image": "https://cdn.pixabay.com/photo/2015/10/30/20/13/sunrise-1014712_1280.jpg"
+  },
+  {
+    "id": 3,
+    "name": "cuerpo de agua",
+    "description": "cuerpo de agua",
+    "image": "https://cdn.pixabay.com/photo/2017/05/09/03/46/alberta-2297204_1280.jpg"
+  }
+]
