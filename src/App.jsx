@@ -1,9 +1,10 @@
 import Main from "./pages/Main"
+import Settings from "./pages/Setting"
 
 function App() {
 
   return (
-    <Main />
+    <Settings />
   )
 }
 
