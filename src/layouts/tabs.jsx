@@ -14,7 +14,7 @@ function TabItem({ title, icon, path }) {
       className="flex items-center justify-center"
     >
       <div className="flex items-center justify-center ">
-        <div className={`flex h-[64px] w-24 rounded-xl  flex-col items-center justify-center ${currentPath === path ? 'bg-blue-500 dark:bg-[#111B21] shadow-xl shadow-blue-600 dark:shadow-gray-900' : 'bg-blue-400 dark:bg-gray-800'}`}>
+        <div className={`flex h-[64px] w-20 rounded-xl  flex-col items-center justify-center ${currentPath === path ? 'bg-blue-500 dark:bg-[#111B21] shadow-xl shadow-blue-600 dark:shadow-gray-900' : 'bg-blue-400 dark:bg-gray-800'}`}>
           {icon}
           <h4 className={`text-sm text-white`}>
             {title}
