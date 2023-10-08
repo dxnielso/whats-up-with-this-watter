@@ -1,17 +1,18 @@
 import CityCard from '../components/CityCard';
+// import { FaSearch } from "react-icons/fa";
+import Input from '../components/Input';
+import data from '../data/data.json';
 
 export default function SearchPage() {
   return (
-    <div className='p-5'>
-      <input type="text" name="" id="" placeholder="Ciudad" className='w-full px-2 py-1 border mb-4 text-base rounded-md outline-none' >
-
-      </input>
+    <div className='p-8 bg-sky-300 h-screen'>
+      <Input placeholder="Ciudad" type="text" />
       <main className='flex flex-col gap-y-3'>
-        <CityCard />
-        <CityCard />
-        <CityCard />
-        <CityCard />
-        <CityCard />
+        {
+          data.map((ciudad) => (
+            <CityCard key={ciudad.key} nombre={ciudad.nombre} cuerpos={ciudad.cuerpos} temp={ciudad.temp} />
+          ))
+        }
       </main>
     </div>
   )
