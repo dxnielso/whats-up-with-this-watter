@@ -16,6 +16,7 @@
     "react-i18next": "^13.2.2",
     "react-icons": "^4.11.0",
     "react-router-dom": "^6.16.0",
+    "standard": "^17.1.0",
     "zustand": "^4.4.3"
   },
   "devDependencies": {
