@@ -14,7 +14,7 @@ export default function MainTile({ item }) {
           alt={item.name}
           className="w-full h-32 mr-3 bg-contain rounded-xl"
         />
-        <div className="flex items-center justify-center w-full mt-2">
+        <div className="flex items-center justify-center w-full mt-2 text-sm">
           {item.name}
         </div>
       </div>

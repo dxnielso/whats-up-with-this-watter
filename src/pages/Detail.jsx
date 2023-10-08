@@ -10,7 +10,7 @@ export default function DetailPage() {
       <img
         src={data.image}
         alt={data.name}
-        className="w-full h-48 mr-3 bg-contain rounded-b-xl"
+        className="w-full h-64 mr-3 bg-contain rounded-b-3xl"
       />
 
       <div className="p-5">

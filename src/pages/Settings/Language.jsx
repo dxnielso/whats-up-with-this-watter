@@ -3,12 +3,8 @@ import SettingsLayout from "../../layouts/settings";
 
 export default function LanguageSettingsPage() {
   return (
-    <SettingsLayout title='Idioma'>
-      <div className="my-1 text-2xl font-semibold">
-        Configuracion de idioma
-      </div>
-
-      <div className="mt-6">
+    <SettingsLayout title='Cambiar Idioma'>
+      <div className="mt-4">
         <LanguageSwitch/>
       </div>
     </SettingsLayout>
