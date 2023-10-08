@@ -8,14 +8,13 @@ import water from '../data/water.json'
 export default function Main () {
   return (
     <TabLayout>
-
-      <div className='mt-6 dark:bg-black'>
+      <div className='mt-6'>
         <Link to='/search'>
           <div className='flex items-center justify-center'>
             <FaLocationDot
-              className='w-5 h-5 mr-2 text-blue-700'
+              className='w-5 h-5 mr-2 text-blue-700 dark:text-white'
             />
-            <h3 className='text-3xl font-semibold text-blue-700'>
+            <h3 className='text-3xl font-semibold text-blue-700 dark:text-white'>
               Abasolo
             </h3>
           </div>

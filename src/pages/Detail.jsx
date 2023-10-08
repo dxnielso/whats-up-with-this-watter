@@ -6,7 +6,7 @@ export default function DetailPage() {
   const data = water.find(item => item.id === Number(id))
 
   return (
-    <div>
+    <div className='dark:bg-[#111B21] h-screen'>
       <img
         src={data.image}
         alt={data.name}
@@ -14,10 +14,10 @@ export default function DetailPage() {
       />
 
       <div className='p-5'>
-        <h3 className='text-2xl font-bold text-blue-900'>
+        <h3 className='text-2xl font-bold text-blue-900 dark:text-white'>
           {data.name}
         </h3>
-        <p className='mt-3 text-sm text-gray-500'>
+        <p className='mt-3 text-sm text-gray-500 dark:text-white52'>
           {data.description}
         </p>
       </div>

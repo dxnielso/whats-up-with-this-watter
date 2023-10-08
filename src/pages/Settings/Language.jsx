@@ -4,7 +4,7 @@ import SettingsLayout from '../../layouts/settings'
 export default function LanguageSettingsPage() {
   return (
     <SettingsLayout title='Cambiar Idioma'>
-      <div className='mt-4'>
+      <div className=''>
         <LanguageSwitch />
       </div>
     </SettingsLayout>
