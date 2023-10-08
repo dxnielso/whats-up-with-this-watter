@@ -3,7 +3,11 @@ import { Navigate, Route, Routes } from 'react-router-dom'
 import DetailPage from './pages/Detail'
 import Main from "./pages/Main"
 import SearchPage from './pages/Search'
+
 import SettingsPage from "./pages/Setting"
+import LanguageSettingsPage from './pages/Settings/Language'
+import ThemeSettingsPage from './pages/Settings/Theme'
+
 import Splash from "./pages/Splash"
 import TipsPage from './pages/Tips'
 
@@ -14,6 +18,9 @@ function App() {
       <Route path="/" element={<Main />} />
 
       <Route path="/settings" element={<SettingsPage />} />
+      <Route path="/settings/language" element={<LanguageSettingsPage />} />
+      <Route path="/settings/theme" element={<ThemeSettingsPage />} />
+
       <Route path="/search" element={<SearchPage />} />
       <Route path="/tips" element={<TipsPage />} />
 
