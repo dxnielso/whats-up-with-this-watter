@@ -1,5 +1,6 @@
 import { FaLocationDot } from "react-icons/fa6"
 import TabLayout from "../layouts/tabs"
+import MainTile from "../components/MainTile"
 
 import water from "../data/water.json"
 
@@ -21,19 +22,9 @@ export default function Main() {
       <div className="grid grid-cols-2 gap-4 mt-10">
 
         {water.map((item) => (
-          <div
-            key={item.id}
-            className="flex flex-col justify-center p-3 bg-blue-100 rounded-xl"
-          >
-            <img
-              src={item.image}
-              alt={item.name}
-              className="w-full h-32 mr-3 bg-contain rounded-xl"
-            />
-            <div className="flex items-center justify-center w-full mt-2">
-              {item.name}
-            </div>
-          </div>
+          <MainTile
+            item={item}
+          />
         ))}
       </div>
 
