@@ -13,13 +13,13 @@ export default function SettingsPage() {
         <SettingsItem
           text="Idioma"
           path={"/settings/language"}
-          icon={<FaLanguage className="w-5" />}
+          icon={<FaLanguage className="w-6 h-6 text-red-700" />}
         />
 
         <SettingsItem
           text="Tema"
           path={"/settings/theme"}
-          icon={<FaMoon className="w-5" />}
+          icon={<FaMoon className="w-6 h-6 text-blue-700" />}
         />
       </div>
 

@@ -1,6 +1,6 @@
 import { FaLocationDot } from "react-icons/fa6"
-import TabLayout from "../layouts/tabs"
 import MainTile from "../components/MainTile"
+import TabLayout from "../layouts/tabs"
 
 import water from "../data/water.json"
 
@@ -23,6 +23,7 @@ export default function Main() {
 
         {water.map((item) => (
           <MainTile
+            key={item.id}
             item={item}
           />
         ))}
