@@ -1,15 +1,15 @@
-import { FaCheck, FaMoon, FaSun } from 'react-icons/fa6';
-import useThemeStore from "../store/theme";
+import { FaCheck, FaMoon, FaSun } from 'react-icons/fa6'
+import useThemeStore from '../store/theme'
 
 export default function ThemeSwitch() {
-  const { theme, setTheme } = useThemeStore();
+  const { theme, setTheme } = useThemeStore()
 
   console.log(theme)
 
   return (
-    <div className="border border-gray-400 rounded-2xl bg-neutral-200/80">
+    <div className='border border-gray-400 rounded-2xl bg-neutral-200/80'>
       <div
-        className="flex items-center p-4"
+        className='flex items-center p-4'
         onClick={() => setTheme('light')}
       >
         <div className='flex items-center'>
@@ -24,10 +24,10 @@ export default function ThemeSwitch() {
         )}
       </div>
 
-      <div className="border-t border-gray-400"></div>
+      <div className='border-t border-gray-400' />
 
       <div
-        className="flex items-center p-4"
+        className='flex items-center p-4'
         onClick={() => setTheme('dark')}
       >
         <div className='flex items-center'>
