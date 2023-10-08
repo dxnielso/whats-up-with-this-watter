@@ -6,7 +6,7 @@ import data from '../data/data.json';
 export default function SearchPage() {
   return (
     <div className='p-8 bg-sky-300 h-screen'>
-      <Input placeholder="Ciudad" type="text" />
+      <Input placeholder="Buscar ciudad" type="text" />
       <main className='flex flex-col gap-y-3'>
         {
           data.map((ciudad) => (

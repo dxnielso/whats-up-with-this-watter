@@ -5,11 +5,11 @@ import TabLayout from '../layouts/tabs'
 export default function SettingsPage() {
   return (
     <TabLayout>
-      <div className='my-5 text-2xl font-semibold'>
+      <div className='my-5 text-2xl font-semibold p-5'>
         <h1 className='dark:text-white'>Configuraciones</h1>
       </div>
 
-      <div className='flex flex-col gap-3 mt-3'>
+      <div className='flex flex-col gap-3 p-5'>
         <SettingsItem
           text='Idioma'
           path='/settings/language'
