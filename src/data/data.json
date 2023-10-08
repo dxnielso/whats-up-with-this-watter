@@ -10,18 +10,16 @@
     "nombre": "Pénjamo",
     "cuerpos": 0,
     "temp": 7
-  }
-  ,
+  },
   {
     "id": 3,
     "nombre": "Irapuato",
     "cuerpos": 3,
     "temp": 15
-  }
-  ,
+  },
   {
     "id": 4,
-    "nombre": "La Piedrad",
+    "nombre": "La Piedad",
     "cuerpos": 10,
     "temp": 18
   }

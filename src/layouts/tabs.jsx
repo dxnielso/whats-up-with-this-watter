@@ -1,4 +1,4 @@
-import { FaGrip, FaHouse, FaJetFighter } from "react-icons/fa6";
+import { FaGrip, FaHouse, FaJetFighter, FaDog } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 
 /* eslint-disable react/prop-types */
@@ -14,7 +14,7 @@ function TabItem({ title, icon, path }) {
       className="flex items-center justify-center "
     >
       <div className="flex items-center justify-center ">
-        <div className={`flex h-[64px] w-24 rounded-xl  flex-col items-center justify-center ${currentPath === path ? 'bg-blue-500 shadow-xl shadow-blue-600' : 'bg-blue-400'}`}>
+        <div className={`flex h-[64px] w-20 rounded-xl  flex-col items-center justify-center ${currentPath === path ? 'bg-blue-500 shadow-xl shadow-blue-600' : 'bg-blue-400'}`}>
           {icon}
           <h4 className={`text-sm text-white`}>
             {title}
@@ -32,7 +32,7 @@ export default function TabLayout({ children }) {
       {children}
 
       <div className="fixed bottom-0 left-0 right-0 h-24 bg-blue-400">
-        <div className="grid h-full grid-cols-3">
+        <div className="grid h-full grid-cols-4">
           <TabItem
             title="Inicio"
             path="/"
@@ -42,6 +42,11 @@ export default function TabLayout({ children }) {
             title="Tips"
             path="/tips"
             icon={<FaJetFighter className="mb-1.5 text-white w-12" />}
+          />
+          <TabItem
+            title="Macota"
+            path="/pet"
+            icon={<FaDog className="mb-1.5 text-white w-12" />}
           />
           <TabItem
             title="Ajustes"

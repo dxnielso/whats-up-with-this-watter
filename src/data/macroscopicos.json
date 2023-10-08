@@ -1,0 +1,23 @@
+[
+  {
+    "id": 2,
+    "nombre": "Ajolote",
+    "especie": "Ambystoma mexicanum",
+    "descripcion": "El ajolote es una especie de salamandra endémica de México que se encuentra en peligro de extinción debido a la pérdida de hábitat y la contaminación del agua. Es conocido por su capacidad única de regeneración de extremidades.",
+    "imagen": "https://i0.wp.com/quintafuerza.mx/wp-content/uploads/2022/06/ajolotes.jpg?fit=703%2C631&ssl=1"
+  },
+  {
+    "id": 3,
+    "nombre": "Tortuga laúd",
+    "especie": "Dermochelys coriacea",
+    "descripcion": "La tortuga laúd es la tortuga marina más grande. Se encuentra en peligro crítico de extinción debido a la pesca incidental y la destrucción de sus hábitats de anidación.",
+    "imagen": "https://images.nationalgeographic.org/image/upload/t_edhub_resource_key_image/v1638887329/EducationHub/photos/leatherback-sea-turtles.jpg"
+  },
+  {
+    "id": 5,
+    "nombre": "Manatí",
+    "especie": "Trichechus spp.",
+    "descripcion": "Los manatíes son mamíferos acuáticos grandes que se encuentran en peligro de extinción debido a la pérdida de hábitat y la caza indiscriminada. Son importantes para la salud de los ecosistemas acuáticos.",
+    "imagen": "https://inaturalist-open-data.s3.amazonaws.com/photos/17174106/original.jpg"
+   }
+]
