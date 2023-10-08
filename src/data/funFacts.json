@@ -1,0 +1,47 @@
+[
+  {
+    "id": 1,
+    "title": "El Amazonas",
+    "description": "El río más largo del mundo, con una longitud de aproximadamente 7,062 kilómetros. Fluye a través de nueve países en Sudamérica."
+  },
+  {
+    "id": 2,
+    "title": "El río Nilo y la civilización egipcia",
+    "description": "El río Nilo ha desempeñado un papel fundamental en la historia y desarrollo de Egipto durante miles de años. Es uno de los ríos más antiguos conocidos."
+  },
+  {
+    "id": 3,
+    "title": "El Mar Caspio",
+    "description": "Aunque se le llama lago, el Mar Caspio es el cuerpo de agua más grande del mundo por área, y está ubicado entre Europa y Asia."
+  },
+  {
+    "id": 4,
+    "title": "El lago Baikal",
+    "description": "Ubicado en Siberia, Rusia, el lago Baikal es el lago más profundo del mundo, alcanzando profundidades de más de 1,600 metros."
+  },
+  {
+    "id": 5,
+    "title": "El Océano Pacífico",
+    "description": "Es el océano más grande del mundo, cubriendo más de 60 millones de kilómetros cuadrados y conteniendo más del 50% del agua del mundo."
+  },
+  {
+    "id": 6,
+    "title": "El Mar Muerto",
+    "description": "Situado entre Israel y Jordania, el Mar Muerto tiene una salinidad de alrededor del 34%, lo que es aproximadamente 10 veces más salado que el agua del océano."
+  },
+  {
+    "id": 7,
+    "title": "La Gran Barrera de Coral",
+    "description": "Situada en Australia, la Gran Barrera de Coral es el sistema de arrecifes de coral más grande del mundo, con una longitud de más de 2,300 kilómetros."
+  },
+  {
+    "id": 8,
+    "title": "Agua dulce en la Tierra",
+    "description": "Solo alrededor del 2.5% del agua en la Tierra es dulce, y la mayor parte de esa agua está atrapada en glaciares y casquetes polares."
+  },
+  {
+    "id": 9,
+    "title": "Glaciares y agua dulce",
+    "description": "Los glaciares y capas de hielo en todo el mundo contienen alrededor del 68.7% del agua dulce de la Tierra."
+  }
+]

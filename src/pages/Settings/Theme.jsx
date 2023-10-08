@@ -1,14 +1,10 @@
-import SettingsLayout from "../../layouts/settings";
-import ThemeSwitch from "../../components/ThemeSwitch";
+import ThemeSwitch from '../../components/ThemeSwitch'
+import SettingsLayout from '../../layouts/settings'
 
 export default function ThemeSettingsPage() {
   return (
-    <SettingsLayout title='Tema'>
-      <div className="my-1 text-2xl font-semibold">
-        Configuracion de tema
-      </div>
-
-      <div className="mt-6">
+    <SettingsLayout title='Cambiar Tema'>
+      <div className='mt-3'>
         <ThemeSwitch />
       </div>
     </SettingsLayout>
