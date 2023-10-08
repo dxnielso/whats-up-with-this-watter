@@ -1,4 +1,5 @@
 import { FaLocationDot } from 'react-icons/fa6'
+import { AiOutlinePlus } from 'react-icons/ai';
 import { Link } from 'react-router-dom'
 import MainTile from '../components/MainTile'
 import TabLayout from '../layouts/tabs'
@@ -17,6 +18,7 @@ export default function Main () {
             <h3 className='text-3xl font-semibold text-blue-700 dark:text-white'>
               Abasolo
             </h3>
+            <AiOutlinePlus className='text-white' />
           </div>
         </Link>
       </div>
