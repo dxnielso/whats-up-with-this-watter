@@ -28,7 +28,7 @@ function TabItem({ title, icon, path }) {
 
 export default function TabLayout({ children }) {
   return (
-    <div className="dark:bg-[#111B21] min-h-screen">
+    <div className="dark:bg-[#111B21] min-h-screen mb-24">
       {children}
       <div className="fixed bottom-0 left-0 right-0 h-24 bg-blue-400 rounded-tr-2xl rounded-tl-2xl dark:bg-[#222E35]">
         <div className="grid h-full grid-cols-4">
@@ -43,7 +43,7 @@ export default function TabLayout({ children }) {
             icon={<FaJetFighter className="mb-1.5 text-white w-12" />}
           />
           <TabItem
-            title="Macota"
+            title="Mascota"
             path="/pet"
             icon={<FaDog className="mb-1.5 text-white w-12" />}
           />

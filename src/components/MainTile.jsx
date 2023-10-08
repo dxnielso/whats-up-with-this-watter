@@ -10,12 +10,12 @@ export default function MainTile({ item }) {
         className='flex flex-col justify-center p-3 bg-blue-100 rounded-xl'
       >
         <img
-          src={item.image}
-          alt={item.name}
+          src={item.imagen}
+          alt={item.nombre}
           className='w-full h-32 mr-3 bg-contain rounded-xl'
         />
         <div className='flex items-center justify-center w-full mt-2 text-sm'>
-          {item.name}
+          {item.nombre}
         </div>
       </div>
     </Link>

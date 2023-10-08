@@ -46,14 +46,14 @@ export default function AnimalDetailPage() {
   console.log(animalEncontrado)
 
   return (
-    <div>
+    <div className='dark:bg-[#111B21] min-h-screen'>
       <img
         src={animalEncontrado.imagen}
         alt={animalEncontrado.nombre}
         className="object-cover w-full h-72"
       />
 
-      <div className="p-5">
+      <div className="p-5 dark:text-white">
         <h1 className="text-2xl font-bold">
           {animalEncontrado.nombre}
         </h1>

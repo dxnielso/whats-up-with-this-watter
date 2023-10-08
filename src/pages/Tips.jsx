@@ -37,7 +37,7 @@ export default function TipsPage() {
 
   return (
     <TabLayout>
-      <div className='p-5'>
+      <div className='p-5 dark:text-white'>
         <div className='my-5 mt-2 text-2xl font-semibold'>
           ¿Que hay en el agua?
         </div>

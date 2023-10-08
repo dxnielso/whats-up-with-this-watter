@@ -33,7 +33,7 @@ export default function Pet() {
   }, []);
 
   return (
-    <div className='fixed p-4 overflow-hidden bg-purple-200 h-72 rounded-xl bottom-28 right-4 left-4'>
+    <div className='fixed p-4 overflow-hidden bg-purple-200 dark:bg-gray-300 h-72 rounded-xl bottom-28 right-4 left-4'>
       <div className='flex items-center justify-center w-full mb-3 text-lg font-bold'>
         <p>Salamandrin</p>
       </div>

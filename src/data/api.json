@@ -1,0 +1,102 @@
+[
+  {
+    "id": 0,
+    "cuidad": "León",
+    "nombre": "Rio turbio-estancia de vaqueros",
+    "tipo": "lótico",
+    "imagen": "https://periodicocorreo.com.mx/__export/sites/correo/img/2020/11/15/rio-1-894105623.jpg",
+    "latitud": 21.06217,
+    "longitud": -101.76118,
+    "parametros": {
+      "demandaBioquimicaOxigeno": 105.5,
+      "calidadDBO": "Contaminada",
+      "demandaQuimicaOxigeno": 1190,
+      "calidadDQO": "Fuertemente contaminada",
+      "solidosSuspendidosTotales": 239.5,
+      "calidadSST": "Contaminado",
+      "semaforo": "Rojo",
+      "contaminantes": "DBO, DQO, SST, CF_E_COLI, OD%L, TOX_L"
+    },
+    "linkDeGoogleMaps": "https://www.google.com/maps?q=21.06217,-101.76118"
+  },
+  {
+    "id": 1,
+    "cuidad": "León",
+    "nombre": "Arrollo hondo",
+    "tipo": "lótico",
+    "imagen": "https://paginacentral.com.mx/wp-content/uploads/2020/08/Arroyo-Hondo-R%C3%ADo-Turbio-contaminaci%C3%B3n-Sapal-780x405.jpeg",
+    "latitud": 21.08019,
+    "longitud": -101.73097,
+    "parametros": {
+      "demandaBioquimicaOxigeno": 213.75,
+      "calidadDBO": "Fuertemente contaminada",
+      "demandaQuimicaOxigeno": 3253.75,
+      "calidadDQO": "Fuertemente contaminada",
+      "solidosSuspendidosTotales": 1207,
+      "calidadSST": "Fuertemente contaminada",
+      "semaforo": "Rojo",
+      "contaminantes": "DBO, DQO, SST, CF_E_COLI, OD%L, TOX_L"
+    },
+    "linkDeGoogleMaps": "https://www.google.com/maps?q=21.08019,-101.73097"
+  },
+  {
+    "id": 2,
+    "cuidad": "León",
+    "nombre": "Arrollo las mulas",
+    "tipo": "lótico",
+    "imagen": "https://i0.wp.com/www.sinembargo.mx/wp-content/uploads/2020/08/descarga2.jpg?w=700&quality=80&strip=all&ssl=1",
+    "latitud": 21.08511,
+    "longitud": -101.73049,
+    "parametros": {
+      "demandaBioquimicaOxigeno": 106,
+      "calidadDBO": "Contaminada",
+      "demandaQuimicaOxigeno": 931.5,
+      "calidadDQO": "Fuertemente contaminada",
+      "solidosSuspendidosTotales": 178.8,
+      "calidadSST": "Contaminado",
+      "semaforo": "Rojo",
+      "contaminantes": "DBO, DQO, SST, CF, E_COLI, OD%L"
+    },
+    "linkDeGoogleMaps": "https://www.google.com/maps?q=21.08511,-101.73049"
+  },
+  {
+    "id": 3,
+    "cuidad": "León",
+    "nombre": "Aguas arriba",
+    "tipo": "lótico",
+    "imagen": "https://www.elsoldeleon.com.mx/incoming/7kfnn7-presa-el-palote-21.jpg/ALTERNATES/LANDSCAPE_768/Presa-El-Palote%20(21).jpg",
+    "latitud": 21.09266,
+    "longitud": -101.73346,
+    "parametros": {
+      "demandaBioquimicaOxigeno": 94,
+      "calidadDBO": "Contaminada",
+      "demandaQuimicaOxigeno": 152.26,
+      "calidadDQO": "Contaminada",
+      "solidosSuspendidosTotales": 27.7,
+      "calidadSST": "Buena calidad",
+      "semaforo": "Rojo",
+      "contaminantes": "DBO, DQO, CF, E_COLI"
+    },
+    "linkDeGoogleMaps": "https://www.google.com/maps?q=21.09266,-101.73346"
+  },
+  {
+    "id": 4,
+    "cuidad": "León",
+    "nombre": "Aguas abajo",
+    "tipo": "lótico",
+    "imagen": "https://www.elsoldeleon.com.mx/local/3rdcmp-1-rio.jpg/ALTERNATES/LANDSCAPE_768/1-r%C3%ADo.JPG",
+    "latitud": 21.08193,
+    "longitud": -101.72978,
+    "parametros": {
+      "demandaBioquimicaOxigeno": 134,
+      "calidadDBO": "Fuertemente contaminada",
+      "demandaQuimicaOxigeno": 1731.5,
+      "calidadDQO": "Fuertemente contaminada",
+      "solidosSuspendidosTotales": 479,
+      "calidadSST": "Fuertemente contaminado",
+      "semaforo": "Rojo",
+      "contaminantes": "DBO, DQO, SST, CF_E_COLI, OD%L, TOX_L"
+    },
+    "linkDeGoogleMaps": "https://www.google.com/maps?q=21.08193,-101.72978"
+  }
+]
