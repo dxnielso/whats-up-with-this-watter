@@ -1,10 +1,22 @@
 import { FaCheck, FaMoon, FaSun } from 'react-icons/fa6'
+import { useEffect } from 'react';
 import useThemeStore from '../store/theme'
 
 export default function ThemeSwitch() {
   const { theme, setTheme } = useThemeStore()
 
-  console.log(theme)
+  const applyDarkModeStyles = (isDarkMode) => {
+    const htmlElement = document.documentElement;
+    if (isDarkMode === 'dark') {
+      htmlElement.classList.add('dark');
+    } else {
+      htmlElement.classList.remove('dark');
+    }
+  };
+
+  useEffect(() => {
+    applyDarkModeStyles(theme);
+  }, [theme]);
 
   return (
     <div className='border border-gray-400 rounded-2xl bg-neutral-200/80'>
