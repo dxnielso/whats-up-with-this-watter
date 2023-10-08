@@ -15,7 +15,7 @@ export default function Pet() {
   }, [])
 
   return (
-    <div className='fixed h-48 p-4 overflow-hidden bg-purple-200 rounded-xl bottom-28 right-4 left-4'>
+    <div className='fixed h-48 p-4 overflow-hidden bg-purple-200 dark:bg-gray-400 rounded-xl bottom-28 right-4 left-4'>
       <div className='absolute -right-14 -bottom-4'>
         <img src={pet} alt='pet' className='w-40 h-40' />
       </div>

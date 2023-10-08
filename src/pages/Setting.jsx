@@ -6,7 +6,7 @@ export default function SettingsPage() {
   return (
     <TabLayout>
       <div className='my-5 text-2xl font-semibold'>
-        Configuraciones
+        <h1 className='dark:text-white'>Configuraciones</h1>
       </div>
 
       <div className='flex flex-col gap-3 mt-3'>

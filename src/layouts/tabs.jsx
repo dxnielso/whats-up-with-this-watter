@@ -11,10 +11,10 @@ function TabItem({ title, icon, path }) {
   return (
     <Link
       to={path}
-      className="flex items-center justify-center "
+      className="flex items-center justify-center"
     >
       <div className="flex items-center justify-center ">
-        <div className={`flex h-[64px] w-24 rounded-xl  flex-col items-center justify-center ${currentPath === path ? 'bg-blue-500 shadow-xl shadow-blue-600' : 'bg-blue-400'}`}>
+        <div className={`flex h-[64px] w-24 rounded-xl  flex-col items-center justify-center ${currentPath === path ? 'bg-blue-500 dark:bg-[#111B21] shadow-xl shadow-blue-600 dark:shadow-gray-900' : 'bg-blue-400 dark:bg-gray-800'}`}>
           {icon}
           <h4 className={`text-sm text-white`}>
             {title}
@@ -28,10 +28,10 @@ function TabItem({ title, icon, path }) {
 
 export default function TabLayout({ children }) {
   return (
-    <div className="p-5">
+    <div className="p-5 dark:bg-[#111B21] min-h-screen">
       {children}
 
-      <div className="fixed bottom-0 left-0 right-0 h-24 bg-blue-400">
+      <div className="fixed bottom-0 left-0 right-0 h-24 bg-blue-400 dark:bg-[#222E35]">
         <div className="grid h-full grid-cols-3">
           <TabItem
             title="Inicio"
