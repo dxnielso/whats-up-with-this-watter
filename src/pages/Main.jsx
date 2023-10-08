@@ -9,7 +9,7 @@ export default function Main () {
   return (
     <TabLayout>
 
-      <div className='mt-6'>
+      <div className='mt-6 dark:bg-black'>
         <Link to='/search'>
           <div className='flex items-center justify-center'>
             <FaLocationDot
