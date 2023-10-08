@@ -1,4 +1,4 @@
-import { FaGrip, FaHouse, FaJetFighter } from "react-icons/fa6";
+import { FaGrip, FaHouse, FaJetFighter, FaDog } from "react-icons/fa6";
 import { Link } from "react-router-dom";
 
 /* eslint-disable react/prop-types */
@@ -30,9 +30,8 @@ export default function TabLayout({ children }) {
   return (
     <div className="p-5 dark:bg-[#111B21] min-h-screen">
       {children}
-
       <div className="fixed bottom-0 left-0 right-0 h-24 bg-blue-400 dark:bg-[#222E35]">
-        <div className="grid h-full grid-cols-3">
+        <div className="grid h-full grid-cols-4">
           <TabItem
             title="Inicio"
             path="/"
@@ -42,6 +41,11 @@ export default function TabLayout({ children }) {
             title="Tips"
             path="/tips"
             icon={<FaJetFighter className="mb-1.5 text-white w-12" />}
+          />
+          <TabItem
+            title="Macota"
+            path="/pet"
+            icon={<FaDog className="mb-1.5 text-white w-12" />}
           />
           <TabItem
             title="Ajustes"

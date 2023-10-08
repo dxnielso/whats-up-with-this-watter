@@ -6,8 +6,6 @@ import useLanguageStore from '../store/language'
 export default function LanguageSwitch() {
   const { language, setLanguage } = useLanguageStore()
 
-  console.log(language)
-
   return (
     <div className='border border-gray-400 rounded-2xl bg-neutral-200/80'>
       <div
