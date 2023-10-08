@@ -1,0 +1,16 @@
+[
+  {
+    "id": 1,
+    "nombre": "Krill Antártico",
+    "especie": "Euphausia superba",
+    "descripcion": "El krill antártico es un pequeño crustáceo que forma la base de la cadena alimenticia en los ecosistemas antárticos. Son vitales para la alimentación de diversas especies marinas, incluyendo ballenas y pingüinos.",
+    "imagen": "https://tvazteca.brightspotcdn.com/e9/b4/fd8f385345b79f696d37d6d59361/krill.jpg"
+  },
+  {
+    "id": 2,
+    "nombre": "Plancton",
+    "especie": "Diversos tipos",
+    "descripcion": "El plancton engloba una amplia variedad de organismos microscópicos como diatomeas, ciliados, flagelados y otros. Son esenciales en la cadena alimenticia y en la producción de oxígeno en los océanos.",
+    "imagen": "https://cdn0.ecologiaverde.com/es/posts/5/4/4/que_es_el_plancton_1445_0_600.jpg"
+  }
+]
