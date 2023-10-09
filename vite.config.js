@@ -7,4 +7,5 @@ export default defineConfig({
     host: true
   },
   plugins: [react()],
+  base: '/whats-up-with-this-watter/',
 })
